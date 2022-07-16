@@ -1,7 +1,6 @@
 #!/bin/sh
-npx rollup
 rm -rf dist
-rollup --config
+npx rollup --config
 mkdir dist
 cp src/*.html dist/
 cp src/*.css dist/
