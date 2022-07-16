@@ -1,4 +1,5 @@
 #!/bin/sh
+npx rollup
 rm -rf dist
 rollup --config
 cp src/*.html dist/
