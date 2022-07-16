@@ -2,6 +2,7 @@
 npx rollup
 rm -rf dist
 rollup --config
+mkdir dist
 cp src/*.html dist/
 cp src/*.css dist/
 cp src/stockz-worker.js dist/
